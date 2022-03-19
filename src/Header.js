@@ -35,27 +35,44 @@ function Header() {
           </div>
         </Link>
         
-        <Link to='/orders'>
+        <Link to='/profile'>
           <div className="header__option">
-            <span className="header__optionLineOne">Returns</span>
-            <span className="header__optionLineTwo">& Orders</span>
+            <span className="header__optionLineOne">My</span>
+            <span className="header__optionLineTwo">Profile</span>
+          </div>
+        </Link>
+
+        <Link to='/research'>
+          <div className="header__option">
+            <span className="header__optionLineOne">Research Papers</span>
+            <span className="header__optionLineTwo">& Publications</span>
           </div>
         </Link>
         
+        <Link to='/mentor'>
+          <div className="header__option">
+            <span className="header__optionLineOne">The</span>
+            <span className="header__optionLineTwo">Mentors</span>
+          </div>
+        </Link>
 
-        <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
-        </div>
+        <Link to='/conference'>
+          <div className="header__option">
+            <span className="header__optionLineOne">The</span>
+            <span className="header__optionLineTwo">Conferences</span>
+          </div>
+        </Link>
 
-        <Link to="/checkout">
+        
+
+        {/* <Link to="/checkout">
           <div className="header__optionBasket">
             <ShoppingBasketIcon />
             <span className="header__optionLineTwo header__basketCount">
               {basket?.length}
             </span>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

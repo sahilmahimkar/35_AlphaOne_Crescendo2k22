@@ -33,50 +33,6 @@ function Home() {
                     />
                 </div>
 
-                <div className="home__row">
-                    <Product 
-                    id="23445930"
-                    title="Psychopathology of Everyday Life"
-                    price={100.00}
-                    image="https://m.media-amazon.com/images/I/71f2MpngVrL._AC_UY218_.jpg"
-                    rating={4}
-                    />
-                    <Product 
-                    id="3254354345"
-                    title="Attitude is Everything"
-                    price={490.99}
-                    image="https://m.media-amazon.com/images/I/710jnzKlDTL._AC_UY218_.jpg"
-                    rating={3}
-                    />
-                    <Product 
-                    id="90829332"
-                    title="Journey to the Center of the Earth"
-                    price={300.00}
-                    image="https://m.media-amazon.com/images/I/81bJyJ3Dp-S._AC_UY218_.jpg"
-                    rating={4}
-                    />
-                </div>
-
-                <div className="home__row">
-                    <Product 
-                    title="Atomic Habits"
-                    price={290.99}
-                    image="https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UY218_.jpg"
-                    rating={3}
-                    />
-                    <Product 
-                    title="Beyond Happiness"
-                    price={190.99}
-                    image="https://m.media-amazon.com/images/I/61ubeoGLAOL._AC_UY218_.jpg"
-                    rating={3}
-                    />
-                    <Product 
-                    title="The Power of Your Subconscious Mind"
-                    price={190.99}
-                    image="https://m.media-amazon.com/images/I/71UwSHSZRnS._AC_UY218_.jpg"
-                    rating={5}
-                    />
-                </div>
             </div>
         </div>
     )

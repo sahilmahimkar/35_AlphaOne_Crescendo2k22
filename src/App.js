@@ -11,8 +11,11 @@ import { useStateValue } from './StateProvider';
 import Payment from './Payment';
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-import Orders from './Orders';
+import Profile from './Profile';
 import Razorpay from './Razorpay';
+import Research from './Research';
+import Mentor from './Mentor';
+import Conference from './Conference';
 
 const promise = loadStripe('pk_test_51Jb4n2SHreZY2Ludv5Xy9Uh8gVOeAL5UW0Tezt19CiMVCLNm6mM6ZqgnzALZ04FFNMatgGwU45BSVuVCEWLZYvNj00Rni8o421');
 
@@ -44,17 +47,24 @@ function App() {
       <div className="app">
         
         <Switch>
-          <Route path="/orders">
-            
+          <Route path="/profile">
             <Header />
-            <Orders />
+            <Profile />
+          </Route>
+          <Route path="/mentor">
+            <Header />
+            <Mentor />
+          </Route>
+          <Route path="/research">
+            <Header />
+            <Research />
           </Route>
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="/checkout">
+          <Route path="/conference">
             <Header />
-            <Checkout />
+            <Conference />
           </Route>
           <Route path="/payment">
             <Header />
